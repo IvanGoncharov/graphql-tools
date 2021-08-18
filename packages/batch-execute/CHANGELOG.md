@@ -1,5 +1,15 @@
 # @graphql-tools/batch-execute
 
+## 8.0.5
+
+### Patch Changes
+
+- 631b11bd: refactor(delegationPlanner): introduce static version of our piecemeal planner
+
+  ...which, although undocumented, can be accessed within the StitchingInfo object saved in a stitched schema's extensions.
+
+  Also improves memoization technique slightly across the board.
+
 ## 8.0.4
 
 ### Patch Changes
